@@ -12,6 +12,3 @@ RUN pip install -r requirements.txt
  
 # create unprivileged user
 RUN adduser --disabled-password --gecos '' myuser
-
-# Run
-CMD ["fig up"]
